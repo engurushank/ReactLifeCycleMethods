@@ -45,7 +45,7 @@ export default class Child extends Component
   {
     console.log("Inside componentDidUpdate");
   }
-  UNSAFE_componentWillUnmount()
+  componentWillUnmount()
   {
     console.log("Inside componentWillUnmount");
   }
